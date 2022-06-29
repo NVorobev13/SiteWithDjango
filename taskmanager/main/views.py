@@ -20,7 +20,7 @@ def create(request):
             form.save()
             return redirect('home')
         else:
-            error = 'Фщрма была неверной'
+            error = 'Форма была неверной'
 
 
     form = TaskForm()
